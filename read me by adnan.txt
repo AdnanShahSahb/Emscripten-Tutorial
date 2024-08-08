@@ -1,0 +1,16 @@
+1. git clone https://github.com/emscripten-core/emsdk.git
+2. cd emsdk
+3. emsdk.bat install latest
+4. emsdk -v
+5. emsdk.bat activate latest
+
+MAKE A FILE IN CPP (asdf.cpp)
+
+6. emcc asdf.cpp
+IT WILL MAKE A JS AND WASM FILE
+
+7. emcc asdf.cpp -o asdf.html
+IT WILL SHOW THE OUTPUT IN ASDF.HTML (BUT REMEMBER: HTML SUPPORTS WASM THROUGH LOCAL SERVER)
+
+8. npm install -g http-server
+9. http-server
