@@ -1,0 +1,4 @@
+emcc asdf.c -o a.out.js -sEXPORTED_FUNCTIONS=_add -sEXPORTED_RUNTIME_METHODS=ccall,cwrap
+
+
+exported funcs
