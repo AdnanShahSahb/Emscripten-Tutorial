@@ -16,7 +16,7 @@
     var Module = {
         onRuntimeInitialized: function () {
             // Once the runtime is initialized, we can call our C function
-            var result = Module._add(3, 4);
+            var result = Module._addING(3, 4);
             console.log(result);
             document.getElementById('output').textContent = 'Result of add(3, 4): ' + result;
         }
